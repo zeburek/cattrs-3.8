@@ -59,8 +59,8 @@ source_suffix = ".rst"
 master_doc = "index"
 
 # General information about the project.
-project = u"cattrs"
-copyright = u"2016, Tin Tvrtković"
+project = u"cattrs-3.8"
+copyright = u"2019, Parviz Khavari"
 
 # The version info for the project you're documenting, acts as replacement
 # for |version| and |release|, also used in various other places throughout
@@ -215,7 +215,7 @@ latex_documents = [
         "index",
         "cattrs.tex",
         u"cattrs Documentation",
-        u"Tin Tvrtković",
+        u"Parviz Khavari",
         "manual",
     )
 ]
@@ -246,7 +246,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ("index", "cattrs", u"cattrs Documentation", [u"Tin Tvrtković"], 1)
+    ("index", "cattrs", u"cattrs Documentation", [u"Parviz Khavari"], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -263,7 +263,7 @@ texinfo_documents = [
         "index",
         "cattrs",
         u"cattrs Documentation",
-        u"Tin Tvrtković",
+        u"Parviz Khavari",
         "cattrs",
         "Composable complex class support for attrs.",
         "Miscellaneous",
