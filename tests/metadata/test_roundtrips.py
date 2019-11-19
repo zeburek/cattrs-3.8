@@ -3,7 +3,7 @@ import attr
 import pytest
 
 from attr import fields, make_class
-from hypothesis import assume, given
+from hypothesis import HealthCheck, assume, given, settings
 from hypothesis.strategies import sampled_from
 
 from cattr import Converter, UnstructureStrategy
@@ -52,6 +52,9 @@ def test_nested_roundtrip(cls_and_vals, strat):
     assert inst == converter.structure(converter.unstructure(inst), cl)
 
 
+@settings(
+    suppress_health_check=(HealthCheck.filter_too_much, HealthCheck.too_slow)
+)
 @given(
     simple_typed_classes(defaults=False),
     simple_typed_classes(defaults=False),
