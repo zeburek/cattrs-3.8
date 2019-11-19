@@ -3,22 +3,18 @@ cattrs
 ======
 
 
-.. image:: https://img.shields.io/pypi/v/cattrs.svg
-        :target: https://pypi.python.org/pypi/cattrs
+.. image:: https://img.shields.io/pypi/v/cattrs-3.8.svg
+        :target: https://pypi.python.org/pypi/cattrs-3.8
 
-.. image:: https://img.shields.io/travis/Tinche/cattrs.svg
-        :target: https://travis-ci.org/Tinche/cattrs
+.. image:: https://img.shields.io/travis/zeburek/cattrs-3.8.svg
+        :target: https://travis-ci.org/zeburek/cattrs-3.8
 
-.. image:: https://readthedocs.org/projects/cattrs/badge/?version=latest
-        :target: https://cattrs.readthedocs.io/en/latest/?badge=latest
-        :alt: Documentation Status
-
-.. image:: https://img.shields.io/pypi/pyversions/cattrs.svg
-        :target: https://github.com/Tinche/cattrs
+.. image:: https://img.shields.io/pypi/pyversions/cattrs-3.8.svg
+        :target: https://github.com/zeburek/cattrs-3.8
         :alt: Supported Python versions
 
 .. image:: https://codecov.io/gh/Tinche/cattrs/branch/master/graph/badge.svg
-        :target: https://codecov.io/gh/Tinche/cattrs
+        :target: https://codecov.io/gh/zeburek/cattrs-3.8
 
 .. image:: https://img.shields.io/badge/code%20style-black-000000.svg
     :target: https://github.com/ambv/black

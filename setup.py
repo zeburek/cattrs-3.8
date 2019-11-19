@@ -30,13 +30,13 @@ dev_reqs = [
 ]
 
 setup(
-    name="cattrs",
-    version="1.0.0rc0",
+    name="cattrs-3.8",
+    version="0.9.1",
     description="Composable complex class support for attrs.",
     long_description=readme + "\n\n" + history,
-    author="Tin Tvrtković",
-    author_email="tinchester@gmail.com",
-    url="https://github.com/Tinche/cattrs",
+    author="Parviz Khavari",
+    author_email="me@parviz.pw",
+    url="https://github.com/zeburek/cattrs-3.8",
     packages=find_packages(where="src", exclude=["tests*"]),
     package_dir={"": "src"},
     include_package_data=True,
