@@ -48,7 +48,7 @@ strings.
 Here's a simple taste. The list containing a float, an int and a string
 gets converted into a tuple of three ints.
 
-.. doctest::
+.. code:: python
 
     >>> import cattr
     >>> from typing import Tuple
@@ -58,7 +58,7 @@ gets converted into a tuple of three ints.
 
 ``cattrs`` works well with ``attrs`` classes out of the box.
 
-.. doctest::
+.. code:: python
 
     >>> import attr, cattr
     >>>
@@ -76,7 +76,7 @@ gets converted into a tuple of three ints.
 Here's a much more complex example, involving ``attrs`` classes with type
 metadata.
 
-.. doctest::
+.. code:: python
 
     >>> from enum import unique, Enum
     >>> from typing import List, Optional, Sequence, Union
